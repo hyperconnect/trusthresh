@@ -18,7 +18,7 @@ from trusthresh.operation import And, Col, Or, Sum
 # Load data.
 x, y = np.load("./dataset/unsmile_pred.npy"), np.load("./dataset/unsmile_gt_usecase_1.npy")
 
-# Write metadata.
+# Write metadata. Here, the order of the metadata must be the same as the column order of x.
 metadata = [
 	Subtask(name="misogyny", label=["yes", "no"]),
 	Subtask(name="religion", label=["yes", "no"]),
