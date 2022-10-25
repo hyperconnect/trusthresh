@@ -15,6 +15,7 @@ from trusthresh.loss import maximize_recall_at_given_precision_w_penalty
 from trusthresh.model import TruSThresh, TruSThreshConfig
 from trusthresh.operation import And, Col, Or, Sum
 
+
 # Load data.
 x, y = np.load("./dataset/unsmile_pred.npy"), np.load("./dataset/unsmile_gt_usecase_1.npy")
 
