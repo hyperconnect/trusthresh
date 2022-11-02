@@ -1,5 +1,5 @@
 # TruSThresh
-Official PyTorch implementation of ["**Reliable Deicision from Multiple Subtasks through Threshold Optimization: Content Moderation in the Wild**"](https://arxiv.org/abs/2208.07522) (WSDM'23).
+An official PyTorch implementation of ["**Reliable Deicision from Multiple Subtasks through Threshold Optimization: Content Moderation in the Wild**"](https://arxiv.org/abs/2208.07522) (WSDM'23).
 
 ## Installation
 ```bash
