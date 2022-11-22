@@ -37,7 +37,6 @@ class Sum(NumericOp):
     def __init__(self, subtask_name: str, labels: List[str]):
         self.subtask_name = subtask_name
         self.labels = labels
-        self.idx = None
 
 
 class And(LogicOp):
