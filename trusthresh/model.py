@@ -49,7 +49,7 @@ class TruSThreshModel(nn.Module):
         initial_threshold: float = 0.5,
         initial_width: float = 0.01,
         tune_width: bool = True,
-        device: Any = "cpu"
+        device: Any = "cpu",
     ) -> None:
         super().__init__()
         self.threshold_fn = TruSThreshSurrogateHeaviside.apply
